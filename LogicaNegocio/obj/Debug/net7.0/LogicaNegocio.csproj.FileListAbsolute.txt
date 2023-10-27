@@ -1,0 +1,17 @@
+C:\Users\joana\source\repos\Api.Quala\LogicaNegocio\bin\Debug\net7.0\LogicaNegocio.deps.json
+C:\Users\joana\source\repos\Api.Quala\LogicaNegocio\bin\Debug\net7.0\LogicaNegocio.dll
+C:\Users\joana\source\repos\Api.Quala\LogicaNegocio\bin\Debug\net7.0\LogicaNegocio.pdb
+C:\Users\joana\source\repos\Api.Quala\LogicaNegocio\bin\Debug\net7.0\AppContexto.dll
+C:\Users\joana\source\repos\Api.Quala\LogicaNegocio\bin\Debug\net7.0\Entidades.dll
+C:\Users\joana\source\repos\Api.Quala\LogicaNegocio\bin\Debug\net7.0\AppContexto.pdb
+C:\Users\joana\source\repos\Api.Quala\LogicaNegocio\bin\Debug\net7.0\Entidades.pdb
+C:\Users\joana\source\repos\Api.Quala\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\joana\source\repos\Api.Quala\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joana\source\repos\Api.Quala\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\joana\source\repos\Api.Quala\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.AssemblyInfo.cs
+C:\Users\joana\source\repos\Api.Quala\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\joana\source\repos\Api.Quala\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.csproj.CopyComplete
+C:\Users\joana\source\repos\Api.Quala\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.dll
+C:\Users\joana\source\repos\Api.Quala\LogicaNegocio\obj\Debug\net7.0\refint\LogicaNegocio.dll
+C:\Users\joana\source\repos\Api.Quala\LogicaNegocio\obj\Debug\net7.0\LogicaNegocio.pdb
+C:\Users\joana\source\repos\Api.Quala\LogicaNegocio\obj\Debug\net7.0\ref\LogicaNegocio.dll

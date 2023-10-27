@@ -1,0 +1,15 @@
+C:\Users\joana\source\repos\Api.Quala\AppContexto\bin\Debug\net7.0\AppContexto.deps.json
+C:\Users\joana\source\repos\Api.Quala\AppContexto\bin\Debug\net7.0\AppContexto.dll
+C:\Users\joana\source\repos\Api.Quala\AppContexto\bin\Debug\net7.0\AppContexto.pdb
+C:\Users\joana\source\repos\Api.Quala\AppContexto\bin\Debug\net7.0\Entidades.dll
+C:\Users\joana\source\repos\Api.Quala\AppContexto\bin\Debug\net7.0\Entidades.pdb
+C:\Users\joana\source\repos\Api.Quala\AppContexto\obj\Debug\net7.0\AppContexto.csproj.AssemblyReference.cache
+C:\Users\joana\source\repos\Api.Quala\AppContexto\obj\Debug\net7.0\AppContexto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joana\source\repos\Api.Quala\AppContexto\obj\Debug\net7.0\AppContexto.AssemblyInfoInputs.cache
+C:\Users\joana\source\repos\Api.Quala\AppContexto\obj\Debug\net7.0\AppContexto.AssemblyInfo.cs
+C:\Users\joana\source\repos\Api.Quala\AppContexto\obj\Debug\net7.0\AppContexto.csproj.CoreCompileInputs.cache
+C:\Users\joana\source\repos\Api.Quala\AppContexto\obj\Debug\net7.0\AppContexto.csproj.CopyComplete
+C:\Users\joana\source\repos\Api.Quala\AppContexto\obj\Debug\net7.0\AppContexto.dll
+C:\Users\joana\source\repos\Api.Quala\AppContexto\obj\Debug\net7.0\refint\AppContexto.dll
+C:\Users\joana\source\repos\Api.Quala\AppContexto\obj\Debug\net7.0\AppContexto.pdb
+C:\Users\joana\source\repos\Api.Quala\AppContexto\obj\Debug\net7.0\ref\AppContexto.dll

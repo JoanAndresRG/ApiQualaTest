@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Datos", "Datos", "{DE0DAEAA-8463-459C-ABF9-4F6FCD4E75F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppContexto", "AppContexto\AppContexto.csproj", "{66B03CAA-B605-43C1-8ADD-4E349A24F706}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{D2C8321E-C4AC-4887-9608-698B4A0D8AD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Negocio", "Negocio", "{FB5E4232-DB9E-47A6-9FB6-15EDE1F45CC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicaNegocio", "LogicaNegocio\LogicaNegocio.csproj", "{FA5B1BB2-ABBC-46C9-90CF-1C904E7F4EBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentacion", "Presentacion", "{80F03BD2-E76E-4AA8-B8DE-8CBFFDBB2DD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apiQualaTest", "apiQualaTest\apiQualaTest.csproj", "{C2DF7B70-5A06-4853-8CA1-014D63F91DC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66B03CAA-B605-43C1-8ADD-4E349A24F706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B03CAA-B605-43C1-8ADD-4E349A24F706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B03CAA-B605-43C1-8ADD-4E349A24F706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B03CAA-B605-43C1-8ADD-4E349A24F706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2C8321E-C4AC-4887-9608-698B4A0D8AD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2C8321E-C4AC-4887-9608-698B4A0D8AD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2C8321E-C4AC-4887-9608-698B4A0D8AD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2C8321E-C4AC-4887-9608-698B4A0D8AD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA5B1BB2-ABBC-46C9-90CF-1C904E7F4EBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA5B1BB2-ABBC-46C9-90CF-1C904E7F4EBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA5B1BB2-ABBC-46C9-90CF-1C904E7F4EBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA5B1BB2-ABBC-46C9-90CF-1C904E7F4EBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2DF7B70-5A06-4853-8CA1-014D63F91DC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2DF7B70-5A06-4853-8CA1-014D63F91DC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2DF7B70-5A06-4853-8CA1-014D63F91DC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2DF7B70-5A06-4853-8CA1-014D63F91DC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{66B03CAA-B605-43C1-8ADD-4E349A24F706} = {DE0DAEAA-8463-459C-ABF9-4F6FCD4E75F9}
+		{D2C8321E-C4AC-4887-9608-698B4A0D8AD8} = {DE0DAEAA-8463-459C-ABF9-4F6FCD4E75F9}
+		{FA5B1BB2-ABBC-46C9-90CF-1C904E7F4EBE} = {FB5E4232-DB9E-47A6-9FB6-15EDE1F45CC2}
+		{C2DF7B70-5A06-4853-8CA1-014D63F91DC7} = {80F03BD2-E76E-4AA8-B8DE-8CBFFDBB2DD8}
+	EndGlobalSection
+EndGlobal
