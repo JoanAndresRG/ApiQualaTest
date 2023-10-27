@@ -137,7 +137,7 @@ namespace apiQualaTest.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult<APIRespuesta>> ActualizarSucursal([FromBody] SucursalInsertarDTO insertarDTO)
+        public async Task<ActionResult<APIRespuesta>> ActualizarSucursal([FromBody] SucursalDTO sucursalDTO)
         {
             try
             {
@@ -148,7 +148,7 @@ namespace apiQualaTest.Controllers
                     _aPIRespuesta.MensajeError = new List<string> { "Todos los parametros son obligatorios" };
                     return BadRequest(_aPIRespuesta);
                 }
-                Sucursales sucursal = _mapper.Map<Sucursales>(insertarDTO);
+                Sucursales sucursal = _mapper.Map<Sucursales>(sucursalDTO);
                 int respuesta = await _negocioSucursal.ActualizarSucursa(sucursal);
                 if (respuesta == 0)
                 {
@@ -159,7 +159,7 @@ namespace apiQualaTest.Controllers
                 }
                 _aPIRespuesta.StatusCode = HttpStatusCode.Created;
                 _aPIRespuesta.IsSuccessful = true;
-                _aPIRespuesta.Respuesta = insertarDTO;
+                _aPIRespuesta.Respuesta = sucursalDTO;
                 return CreatedAtRoute("SucursalesPorCodigo", new { codigo = respuesta }, _aPIRespuesta);
             }
             catch (Exception ex)
