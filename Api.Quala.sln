@@ -5,17 +5,22 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Datos", "Datos", "{DE0DAEAA-8463-459C-ABF9-4F6FCD4E75F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppContexto", "AppContexto\AppContexto.csproj", "{66B03CAA-B605-43C1-8ADD-4E349A24F706}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppContexto", "AppContexto\AppContexto.csproj", "{66B03CAA-B605-43C1-8ADD-4E349A24F706}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{D2C8321E-C4AC-4887-9608-698B4A0D8AD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entidades", "Entidades\Entidades.csproj", "{D2C8321E-C4AC-4887-9608-698B4A0D8AD8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Negocio", "Negocio", "{FB5E4232-DB9E-47A6-9FB6-15EDE1F45CC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicaNegocio", "LogicaNegocio\LogicaNegocio.csproj", "{FA5B1BB2-ABBC-46C9-90CF-1C904E7F4EBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogicaNegocio", "LogicaNegocio\LogicaNegocio.csproj", "{FA5B1BB2-ABBC-46C9-90CF-1C904E7F4EBE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentacion", "Presentacion", "{80F03BD2-E76E-4AA8-B8DE-8CBFFDBB2DD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apiQualaTest", "apiQualaTest\apiQualaTest.csproj", "{C2DF7B70-5A06-4853-8CA1-014D63F91DC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "apiQualaTest", "apiQualaTest\apiQualaTest.csproj", "{C2DF7B70-5A06-4853-8CA1-014D63F91DC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{8772F6ED-F41F-4438-9527-0DEC5BA22494}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\ScriptsSucursal.sql = ..\..\..\Downloads\ScriptsSucursal.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,5 +53,8 @@ Global
 		{D2C8321E-C4AC-4887-9608-698B4A0D8AD8} = {DE0DAEAA-8463-459C-ABF9-4F6FCD4E75F9}
 		{FA5B1BB2-ABBC-46C9-90CF-1C904E7F4EBE} = {FB5E4232-DB9E-47A6-9FB6-15EDE1F45CC2}
 		{C2DF7B70-5A06-4853-8CA1-014D63F91DC7} = {80F03BD2-E76E-4AA8-B8DE-8CBFFDBB2DD8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C638BDD2-A5A7-4E65-BE20-AB5A4D831E64}
 	EndGlobalSection
 EndGlobal
