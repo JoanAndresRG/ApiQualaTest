@@ -73,7 +73,7 @@ namespace AppContexto.Repositorios
                     parametros.Add("@Identificacion", sucursal.Identificacion, DbType.String, ParameterDirection.Input);
                     parametros.Add("@FechaCreacion", DateTime.Now, DbType.DateTime, ParameterDirection.Input);
                     parametros.Add("@IdMoneda", sucursal.IdMoneda, DbType.Int32, ParameterDirection.Input);
-                    var codigo = await conexion.ExecuteAsync(pa_listar_sucursales, parametros, commandType: CommandType.StoredProcedure);
+                    var codigo = await conexion.QueryFirstOrDefaultAsync<int>(pa_listar_sucursales, parametros, commandType: CommandType.StoredProcedure);
                     return codigo;
                 }
                 catch (Exception ex)
@@ -103,8 +103,8 @@ namespace AppContexto.Repositorios
                     parametros.Add("@Identificacion", sucursal.Identificacion, DbType.String, ParameterDirection.Input);
                     parametros.Add("@FechaCreacion", DateTime.Now, DbType.DateTime, ParameterDirection.Input);
                     parametros.Add("@IdMoneda", sucursal.IdMoneda, DbType.Int32, ParameterDirection.Input);
-                    var codigo = await conexion.ExecuteAsync(pa_actualizar_sucursal, parametros, commandType: CommandType.StoredProcedure);
-                    return codigo;
+                    await conexion.ExecuteAsync(pa_actualizar_sucursal, parametros, commandType: CommandType.StoredProcedure);
+                    return sucursal.Codigo;
                 }
                 catch (Exception ex)
                 {

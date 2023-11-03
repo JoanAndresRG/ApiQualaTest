@@ -1,16 +1,21 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Entidades.DTDs
 {
-    public class SucursalInsertarDTO
+    public class SucursalActualizarDTO
     {
-        //[Required]
-        //public int Codigo { get; set; }
         [Required]
-        [MaxLength(250, ErrorMessage ="Maximo de caracteres superado")]
+        public int Codigo { get; set; }
+        [Required]
+        [MaxLength(250, ErrorMessage = "Maximo de caracteres superado")]
         public string Nombre { get; set; }
         [Required]
-        [MaxLength(250, ErrorMessage ="Maximo de caracteres superado")]
+        [MaxLength(250, ErrorMessage = "Maximo de caracteres superado")]
         public string Descripcion { get; set; }
         [Required]
         [MaxLength(250, ErrorMessage = "Maximo de caracteres superado")]

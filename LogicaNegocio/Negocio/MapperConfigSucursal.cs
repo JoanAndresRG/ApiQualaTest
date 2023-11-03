@@ -10,6 +10,7 @@ namespace LogicaNegocio.Negocio
         {
             CreateMap<Sucursales, SucursalDTO>().ReverseMap();
             CreateMap<Sucursales, SucursalInsertarDTO>().ReverseMap();
+            CreateMap<Sucursales, SucursalActualizarDTO>().ReverseMap();
         }
 
     }

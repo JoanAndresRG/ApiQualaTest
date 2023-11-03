@@ -9,5 +9,6 @@
         public string Identificacion { get; set; }
         public DateTime FechaCreacion { get; set; }
         public int IdMoneda { get; set; }
+        public string Moneda { get; set; }
     }
 }

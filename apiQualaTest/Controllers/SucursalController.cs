@@ -137,7 +137,7 @@ namespace apiQualaTest.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult<APIRespuesta>> ActualizarSucursal([FromBody] SucursalDTO sucursalDTO)
+        public async Task<ActionResult<APIRespuesta>> ActualizarSucursal([FromBody] SucursalActualizarDTO sucursalDTO)
         {
             try
             {
@@ -150,13 +150,6 @@ namespace apiQualaTest.Controllers
                 }
                 Sucursales sucursal = _mapper.Map<Sucursales>(sucursalDTO);
                 int respuesta = await _negocioSucursal.ActualizarSucursa(sucursal);
-                if (respuesta == 0)
-                {
-                    _aPIRespuesta.StatusCode = HttpStatusCode.BadRequest;
-                    _aPIRespuesta.IsSuccessful = false;
-                    _aPIRespuesta.MensajeError = new List<string> { "BD no retorno data" };
-                    return BadRequest(_aPIRespuesta);
-                }
                 _aPIRespuesta.StatusCode = HttpStatusCode.Created;
                 _aPIRespuesta.IsSuccessful = true;
                 _aPIRespuesta.Respuesta = sucursalDTO;
